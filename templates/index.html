@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h2>Customer Churn Prediction</h2>
+
+<form method="POST">
+  <input name="f1" placeholder="Age" required>
+  <input name="f2" placeholder="Tenure" required>
+  <input name="f3" placeholder="Monthly Charge" required>
+  <input name="f4" placeholder="Complaints" required>
+  <button>Predict</button>
+</form>
+
+<h3>{{ result }}</h3>
+
+<a href="/history">History</a> |
+<a href="/logout">Logout</a>
+
+</body>
+</html>

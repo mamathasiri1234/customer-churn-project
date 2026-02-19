@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<h2>Your Prediction History</h2>
+
+<table>
+<tr>
+  <th>AGE</th><th>TENURE</th><th>MONTHLY CHARGE</th><th>COMPLAINTS</th><th>RESULT</th>
+</tr>
+
+{% for row in data%}
+<tr>
+  <td>{{ row[2] }}</td>
+  
+  <td>{{ row[3] }}</td>
+  <td>{{ row[4] }}</td>
+  <td>{{ row[5] }}</td>
+  <td>{{ row[6] }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<a href="/index">Back</a>
