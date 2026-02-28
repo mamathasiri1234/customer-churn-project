@@ -1,7 +1,7 @@
+
 # Customer Churn Prediction Web App
 
 ## 📌 Project Overview
-
 This project predicts whether a customer will **STAY** or **LEAVE** using
 **Logistic Regression Machine Learning model** and a **Flask web application**.
 
@@ -107,5 +107,4 @@ Age,Tenure,MonthlyCharge,Complaints,Churn
 
 ## 👩‍💻 Author
 
-**Student Machine Learning Project**
-Created for learning **Flask + ML integration**.
+**Student Machine Learning Project
